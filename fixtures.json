@@ -1,0 +1,77 @@
+[
+    {
+        "pk": 1, 
+        "model": "slurpee.source", 
+        "fields": {
+            "use_dropbox": false, 
+            "vmix_id": "", 
+            "feed_url": "http://www.kansascity.com/sports/chiefs/v-full/index.rss", 
+            "title": "News", 
+            "site": 1, 
+            "summary": "Chiefs spotlight news", 
+            "content_type": "1", 
+            "slug": "news", 
+            "icon": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "slurpee.source", 
+        "fields": {
+            "use_dropbox": false, 
+            "vmix_id": "", 
+            "feed_url": "http://www.kansascity.com/886/v-full/index.xml", 
+            "title": "Chiefs Photos", 
+            "site": 1, 
+            "summary": "", 
+            "content_type": "3", 
+            "slug": "chiefs-photos", 
+            "icon": ""
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "slurpee.source", 
+        "fields": {
+            "use_dropbox": false, 
+            "vmix_id": "", 
+            "feed_url": "http://www.kansascity.com/1015/v-full/index.xml", 
+            "title": "More Chiefs Photos", 
+            "site": 1, 
+            "summary": "", 
+            "content_type": "3", 
+            "slug": "more-chiefs-photos", 
+            "icon": ""
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "slurpee.source", 
+        "fields": {
+            "use_dropbox": false, 
+            "vmix_id": "", 
+            "feed_url": "http://chiefsblog.kansascity.com/?q=rss.xml", 
+            "title": "Red Zone", 
+            "site": 1, 
+            "summary": "", 
+            "content_type": "2", 
+            "slug": "red-zone", 
+            "icon": ""
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "slurpee.source", 
+        "fields": {
+            "use_dropbox": false, 
+            "vmix_id": "18897", 
+            "feed_url": "", 
+            "title": "Chiefs Video", 
+            "site": 1, 
+            "summary": "", 
+            "content_type": "4", 
+            "slug": "chiefs-video", 
+            "icon": ""
+        }
+    }
+]
