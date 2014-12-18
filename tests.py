@@ -1,13 +1,14 @@
 from django.test import TestCase
 
-from slurpee.importers import import_articles
-from slurpee.views import slurp
+from .views import slurp
+
+
 class SlurpeeViewsTestCase(TestCase):
-    
+
     def test_importers(self):
-        #resp = self.client.get('/slurpee/')
-        #self.assertEqual(resp.status_code, 200)
-        
+        resp = self.client.get('/slurpee/')
+        self.assertEqual(resp.status_code, 200)
+
         # test slurping
         slurp()
 
